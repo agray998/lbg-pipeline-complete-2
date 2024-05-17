@@ -4,7 +4,7 @@
 }
 
 .colour-border{
-  border: 3px solid red;
+  border: 3px solid crimson;
   padding: 10px;
 }
 
@@ -20,7 +20,11 @@ h3 {
   color: slategray;
 }
 
+hr {
+  color: slategrey;
+}
+
 body  {
   padding: 10px;
-  background-color: white;
+  background-color: cornflowerblue;
 }
