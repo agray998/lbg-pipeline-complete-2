@@ -1,11 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    kubernetes.io/change-cause: scale down to 1 replica
   name: lbgcalc
   labels:
     app: lbgcalc
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
       app: lbgcalc
