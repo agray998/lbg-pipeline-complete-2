@@ -3,9 +3,15 @@
   padding-bottom: 20px;
 }
 
+.host {
+  border-radius: 5%;
+  border: 3px dashed slategray;
+}
+
 .colour-border{
-  border: 3px solid red;
+  border: 3px solid rebeccapurple;
   padding: 10px;
+  border-radius: 5%;
 }
 
 .header{
@@ -13,7 +19,7 @@
 }
 
 h1 { 
-    color: maroon;
+    color: rebeccapurple;
 }
 
 h3 { 
@@ -23,4 +29,5 @@ h3 {
 body  {
   padding: 10px;
   background-color: white;
+  font-family: monospace;
 }
